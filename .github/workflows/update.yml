@@ -52,5 +52,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         with:
-          source-repo: 'git@github.com:ineo6/hosts.git'
-          destination-repo: 'git@gitee.com:ineo6/hosts.git'
+          source-repo: 'git@github.com:wowguoqing/hosts.git'
+          destination-repo: 'git@gitee.com:wowguoqing/hosts.git'
