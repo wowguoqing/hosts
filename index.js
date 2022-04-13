@@ -56,8 +56,8 @@ const ipAddressFooter = '.ipaddress.com';
 
 const tpl = `
 {content}
-# Please Star : https://github.com/ineo6/hosts
-# Mirror Repo : https://gitee.com/ineo6/hosts
+# Please Star : https://github.com/wowguoqing/hosts
+# Mirror Repo : https://gitee.com/wowguoqing/hosts
 `;
 
 function lJust(str, total, pad) {
