@@ -4,8 +4,8 @@
 
 `GitHub Hosts`主要是通过修改`host`的方式加速`GitHub`访问，解决图片无法加载以及访问速度慢的问题。
 
-- 主站: https://github.com/ineo6/hosts
-- 镜像地址: https://gitee.com/ineo6/hosts
+- 主站: https://github.com/wowguoqing/hosts
+- 镜像地址: https://gitee.com/wowguoqing/hosts
 
 ## 使用方式
 
@@ -73,17 +73,10 @@ ipconfig /flushdns
 
 - 方案名：GitHub（可以自行命名）
 - 类型：远程
-- URL 地址：https://gitee.com/ineo6/hosts/raw/master/hosts
+- URL 地址：https://gitee.com/wowguoqing/hosts/raw/master/hosts
 - 自动更新：1个小时
 
 这样就可以和最新的`hosts`保持同步。
 
 ![switchhost-github.png](https://i.loli.net/2021/03/28/XnHW5xCEzel36fA.png)
 
-## 我的作品
-
-- [GitMaster](https://github.com/ineo6/git-master)：开发者助手，代码仓库结构浏览器扩展
-- [Weekly 周刊](https://github.com/ineo6/weekly)：我的前端周刊，GitHub周刊
-- [homebrew-install](https://github.com/ineo6/homebrew-install)：Homebrew快速安装教程和脚本
-- [GitHub Hosts](https://github.com/ineo6/hosts)：GitHub最新hosts，定时更新
-- [mp-ci](https://github.com/ineo6/mp-ci)：微信小程序、小游戏发布助手（CI）
