@@ -11,7 +11,7 @@
 
 ### hosts
 
-内容定时更新，最近更新时间：2022-06-16 06:16:03。
+内容定时更新，最近更新时间：2022-06-16 09:19:55。
 
 ```bash
 # GitHub Host Start
@@ -26,7 +26,7 @@
 140.82.112.4                 gist.github.com
 185.199.108.153              github.io
 140.82.113.4                 github.com
-140.82.112.6                 api.github.com
+140.82.113.5                 api.github.com
 185.199.108.133              raw.githubusercontent.com
 185.199.108.133              user-images.githubusercontent.com
 185.199.108.133              favicons.githubusercontent.com
@@ -50,7 +50,7 @@
 
 # Please Star : https://github.com/wowguoqing/hosts
 # Mirror Repo : https://gitee.com/wowguoqing/hosts
-# Update at: 2022-06-16 06:16:03
+# Update at: 2022-06-16 09:19:55
 
 # GitHub Host End
 ```
