@@ -11,7 +11,7 @@
 
 ### hosts
 
-内容定时更新，最近更新时间：2022-06-21 09:22:27。
+内容定时更新，最近更新时间：2022-06-21 11:27:58。
 
 ```bash
 # GitHub Host Start
@@ -38,7 +38,7 @@
 185.199.108.133              avatars0.githubusercontent.com
 185.199.108.133              avatars.githubusercontent.com
 140.82.114.10                codeload.github.com
-52.217.72.20                 github-cloud.s3.amazonaws.com
+54.231.195.129               github-cloud.s3.amazonaws.com
 54.231.228.105               github-com.s3.amazonaws.com
 52.217.197.65                github-production-release-asset-2e65be.s3.amazonaws.com
 54.231.137.105               github-production-user-asset-6210df.s3.amazonaws.com
@@ -50,7 +50,7 @@
 
 # Please Star : https://github.com/wowguoqing/hosts
 # Mirror Repo : https://gitee.com/wowguoqing/hosts
-# Update at: 2022-06-21 09:22:27
+# Update at: 2022-06-21 11:27:58
 
 # GitHub Host End
 ```
