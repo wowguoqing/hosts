@@ -11,7 +11,7 @@
 
 ### hosts
 
-内容定时更新，最近更新时间：2022-06-26 14:17:58。
+内容定时更新，最近更新时间：2022-06-26 16:18:00。
 
 ```bash
 # GitHub Host Start
@@ -25,7 +25,7 @@
 146.75.77.194                github.global.ssl.fastly.net
 140.82.112.3                 gist.github.com
 185.199.108.153              github.io
-140.82.114.4                 github.com
+140.82.113.3                 github.com
 140.82.112.5                 api.github.com
 185.199.108.133              raw.githubusercontent.com
 185.199.108.133              user-images.githubusercontent.com
@@ -37,7 +37,7 @@
 185.199.108.133              avatars1.githubusercontent.com
 185.199.108.133              avatars0.githubusercontent.com
 185.199.108.133              avatars.githubusercontent.com
-140.82.114.10                codeload.github.com
+140.82.112.10                codeload.github.com
 52.216.32.233                github-cloud.s3.amazonaws.com
 52.217.98.100                github-com.s3.amazonaws.com
 52.216.112.187               github-production-release-asset-2e65be.s3.amazonaws.com
@@ -50,7 +50,7 @@
 
 # Please Star : https://github.com/wowguoqing/hosts
 # Mirror Repo : https://gitee.com/wowguoqing/hosts
-# Update at: 2022-06-26 14:17:58
+# Update at: 2022-06-26 16:18:00
 
 # GitHub Host End
 ```
