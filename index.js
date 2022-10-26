@@ -39,7 +39,8 @@ const githubUrls = [
   'githubstatus.com',
   'github.community',
   'media.githubusercontent.com',
-  'raw.github.com'
+  'raw.github.com',
+  'translate.googleapis.com'
 ];
 
 const headers = {
