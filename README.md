@@ -11,7 +11,7 @@
 
 ### hosts
 
-内容定时更新，最近更新时间：2022-10-31 06:16:45。
+内容定时更新，最近更新时间：2022-10-31 11:46:32。
 
 ```bash
 # GitHub Host Start
@@ -33,11 +33,11 @@
 185.199.108.153              githubstatus.com
 140.82.112.17                github.community
 140.82.113.4                 raw.github.com
-172.253.62.99                translate.googleapis.com
+173.194.209.99               translate.googleapis.com
 
 # Please Star : https://github.com/wowguoqing/hosts
 # Mirror Repo : https://gitee.com/wowguoqing/hosts
-# Update at: 2022-10-31 06:16:45
+# Update at: 2022-10-31 11:46:32
 
 # GitHub Host End
 ```
