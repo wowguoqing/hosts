@@ -2,6 +2,8 @@ name: UpdateHosts
 
 on:
   push:
+    tags-ignore:
+      - "v*.*.*"
   schedule:
     - cron: '0 */2 * * *'
 
@@ -10,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12]
+        node-version: [14]
 
     steps:
       - uses: actions/checkout@v2
@@ -25,6 +27,9 @@ jobs:
 
       - name: Update hosts
         run: npm run make
+
+      - name: Update next hosts
+        run: npm run make:next
 
       - name: Commit
         id: commit
@@ -44,19 +49,26 @@ jobs:
         with:
           github_token: ${{ secrets.COMMIT_TOKEN }}
 
+      - name: Move files
+        run: |
+          mkdir ./public
+          mv ./README.md ./public/
+
+      - name: GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.COMMIT_TOKEN }}
+          publish_dir: ./public
+          enable_jekyll: true
+          keep_files: true
+
   git-mirror:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: show SSH_PRIVATE_KEY
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: echo "$SSH_PRIVATE_KEY"
-
-      
       - uses: wearerequired/git-mirror-action@v1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         with:
           source-repo: 'git@github.com:wowguoqing/hosts.git'
-          destination-repo: 'git@gitee.com:wowguoqing/hosts.git'
+          destination-repo: 'git@gitlab.com:wowguoqing/hosts.git'
